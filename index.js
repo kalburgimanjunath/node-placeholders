@@ -38,8 +38,15 @@ app.get('/api/users', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
   res.send(JSON.stringify(users));
 });
+app.get('/api/users:users', (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify(users));
+});
 app.get('/post', (req, res) => {
   res.send('Got post request');
+});
+app.get('/checkout', (req, res) => {
+  res.send('Stripe Checkout Started');
 });
 
 app.listen(port, () => {
