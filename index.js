@@ -1,8 +1,12 @@
 const express = require('express');
 const stripe = require('stripe');
 
+const bodyparser = require('body-parser');
+const path = require('path');
+
 const app = express();
 const port = 3000;
+
 const users = [
   {
     id: 1,
@@ -45,8 +49,47 @@ app.get('/api/users:users', (req, res) => {
 app.get('/post', (req, res) => {
   res.send('Got post request');
 });
-app.get('/checkout', (req, res) => {
-  res.send('Stripe Checkout Started');
+app.post('/checkout', (req, res) => {
+  // res.send('Stripe Checkout Started');
+  // console.log('Stripe Checkout Started');
+
+  var Publishable_Key =
+    'pk_test_51JsN81SEVNehWJ1uKQAqJx4eUsF4Ql8WbaJrLsIpaFrwEBfJwhl33n4sFPL3pLtJOPEwAdrCksuJRmrXJ8URGf3u00UY2xtLMy';
+  var Secret_Key =
+    'sk_test_51JsN81SEVNehWJ1uuZdr3f7ErnIygMZD5DQnE6gEDCaxisGiXvzLPdMZjSVKEkJBhGBwvuKPKEEWPHnV30WAFygI00T0duJd5v';
+
+  const stripe = require('stripe')(Secret_Key);
+  // res.render('Home', {
+  //   key: Publishable_Key,
+  // });
+  stripe.customers
+    .create({
+      email: req.body.stripeEmail,
+      source: req.body.stripeToken,
+      name: 'Manjunath Kalburgi',
+      address: {
+        line1: 'Ravi nagar hubli',
+        postal_code: '580030',
+        city: 'Hubli',
+        state: 'Karnataka',
+        country: 'India',
+      },
+    })
+    .then((customer) => {
+      console.log('payment mode');
+      return stripe.charges.create({
+        amount: 1, // Charing Rs 25
+        description: 'Web Development Product',
+        currency: 'INR',
+        customer: customer.id,
+      });
+    })
+    .then((charge) => {
+      res.send('Success'); // If no error occurs
+    })
+    .catch((err) => {
+      res.send(err); // If some error occurs
+    });
 });
 
 app.listen(port, () => {
