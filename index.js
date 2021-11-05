@@ -31,6 +31,236 @@ const users = [
       bs: 'harness real-time e-markets',
     },
   },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
+  {
+    id: 1,
+    name: 'Manjunath Kalburgi',
+    username: 'manju',
+    email: 'manjunathkalburgi@gmail.com',
+    address: {
+      street: 'ravi nagar',
+      suite: 'Apt. 556',
+      city: 'Hubli',
+      zipcode: '580030',
+      geo: {
+        lat: '-37.3159',
+        lng: '81.1496',
+      },
+    },
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
+    company: {
+      name: 'Personal',
+      catchPhrase: 'Multi-layered client-server neural-net',
+      bs: 'harness real-time e-markets',
+    },
+  },
 ];
 app.set('json spaces', 40);
 
@@ -64,7 +294,7 @@ app.get('/checkout', (req, res) => {
   // });
   stripe.customers
     .create({
-      email: req.body.stripeEmail,
+      email: 'manjunathkalburgi85@gmail.com',
       source: req.body.stripeToken,
       name: 'Manjunath Kalburgi',
       address: {
