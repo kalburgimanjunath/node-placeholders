@@ -236,11 +236,12 @@ const users = [
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(users.json());
+  res.send('<pre>' + users.json() + '</pre>');
 });
 app.get('/api/users', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(users.toString());
+  console.log('stringify');
+  res.send(JSON.stringify(users));
 });
 app.get('/post', (req, res) => {
   res.send('Got post request');
