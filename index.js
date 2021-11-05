@@ -49,7 +49,7 @@ app.get('/api/users:users', (req, res) => {
 app.get('/post', (req, res) => {
   res.send('Got post request');
 });
-app.post('/checkout', (req, res) => {
+app.get('/checkout', (req, res) => {
   // res.send('Stripe Checkout Started');
   // console.log('Stripe Checkout Started');
 
