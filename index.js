@@ -235,10 +235,12 @@ const users = [
 ];
 
 app.get('/', (req, res) => {
-  res.send('<pre>' + users + '</pre>');
+  res.setHeader('Content-Type', 'application/json');
+  res.send(users.toString());
 });
 app.get('/api/users', (req, res) => {
-  res.send(users);
+  res.setHeader('Content-Type', 'application/json');
+  res.send(users.toString());
 });
 app.get('/post', (req, res) => {
   res.send('Got post request');
