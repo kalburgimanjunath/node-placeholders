@@ -32,11 +32,11 @@ app.set('json spaces', 40);
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send('<pre>' + JSON.stringify(users) + '</pre>');
+  res.send(JSON.stringify(users));
 });
 app.get('/api/users', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(users.json());
+  res.send(JSON.stringify(users));
 });
 app.get('/post', (req, res) => {
   res.send('Got post request');
