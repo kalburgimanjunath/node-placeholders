@@ -236,7 +236,7 @@ const users = [
 
 app.get('/', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send('<pre>' + users.json() + '</pre>');
+  res.send('<pre>' + users + '</pre>');
 });
 app.get('/api/users', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
