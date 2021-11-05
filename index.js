@@ -235,8 +235,7 @@ const users = [
 ];
 
 app.get('/', (req, res) => {
-  console.log('hello manju');
-  res.send('Hello Manju');
+  res.send(users);
 });
 app.get('/api/users', (req, res) => {
   res.send(users);
