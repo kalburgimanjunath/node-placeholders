@@ -19,10 +19,10 @@ const users = [
         lng: '81.1496',
       },
     },
-    phone: '1-770-736-8031 x56442',
-    website: 'hildegard.org',
+    phone: '9986407307',
+    website: 'manjunathkalburgi.github.com',
     company: {
-      name: 'Romaguera-Crona',
+      name: 'Personal',
       catchPhrase: 'Multi-layered client-server neural-net',
       bs: 'harness real-time e-markets',
     },
